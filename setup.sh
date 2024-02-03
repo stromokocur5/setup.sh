@@ -33,7 +33,8 @@ curl -fsSL https://deno.land/install.sh | sh
 curl -fsSL https://bun.sh/install | bash
 
 # Install tauri
-cargo install create-tauri-app --locked
+cargo install create-tauri-app
+cargo install tauri-cli
 
 # Install tailwind
 curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.1/tailwindcss-linux-x64
